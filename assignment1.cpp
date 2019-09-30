@@ -1,6 +1,6 @@
-#include<iostream.h>
-#include<conio.h>
-#include<stdio.h>
+#include<iostream>
+using namespace std;
+
 
 
 class student
@@ -35,7 +35,7 @@ public:
 
 int main ()
 {
-	clrscr();
+
 	student obj ;
 	obj.Takedata();
 	obj.Showdata();
